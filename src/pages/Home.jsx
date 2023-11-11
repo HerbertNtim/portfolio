@@ -5,6 +5,7 @@ import { Island } from "../models/Island"
 import Sky from "../models/Sky"
 import Bird from "../models/Bird"
 import Plane from "../models/Plane"
+import HomeInfo from "../components/HomeInfo"
 
 const Home = () => {
   const [ isRotating, setIsRotating ] = useState(false)
@@ -44,9 +45,9 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
-      {/* <div className="flex justify-center items-center absolute top-28 left-0 right-0 z-10">
-        POPUP
-      </div> */}
+      <div className="flex justify-center items-center absolute top-28 left-0 right-0 z-10">
+        <HomeInfo currentState={currentState}/>
+      </div>
 
       <Canvas 
         className={`w-full h-screen bg-transparent ${isRotating ? 'cursor-grabbing' : 'cursor-grab'}`}
