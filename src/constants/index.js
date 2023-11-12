@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {Knust, alleAi } from "../assets/images";
 import {
     car,
     contact,
@@ -111,57 +111,58 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Kwame Nkrumah University of Science and Technology",
+        company_name: "Bsc. Computer Engineering",
+        icon: Knust,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "September 2020 - September 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "My degree program in computer engineering provided me with a comprehensive understanding of both hardware and software aspects of computer systems.",
+            "Throughout my program, I delved into a wide range of subjects, including digital logic design, microprocessor architecture, operating systems, algorithms, and programming languages.",
+            "My program encouraged critical thinking, problem-solving, and teamwork, preparing me to collaborate effectively with professionals from different disciplines in the ever-evolving technology industry.",
+            " As a computer engineering student, I developed a strong foundation in the field and a passion for innovation, setting the stage for a rewarding career in the world of technology.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Internship",
+        company_name: "Alle-AI",
+        icon: alleAi,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "November 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Having the privilege of interning at Alle-AI, an exciting startup company that is making waves in the world of artificial intelligence.",
+            "Alle-AI is an all-in-one AI platform that empowers users to harness the power of multiple state-of-the-art Generative AI models simultaneously.",
+            "I am exposed to a dynamic and innovative environment where cutting-edge AI technologies were being developed and refined.",
+            "Working at Alle-AI is an eye-opening experience, as I witness firsthand the rapid advancements in AI and its practical applications.",
+            "I am having the opportunity to collaborate with a talented team of engineers and researchers, and I am involved in researching that contributed to the continuous improvement of the platform. It is a fantastic learning opportunity, and I gaining valuable insights into the AI industry's future and the transformative potential of AI technology."
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#b7e4c7",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [

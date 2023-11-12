@@ -10,7 +10,6 @@ import Footer from "../components/Footer"
 const Contact = () => {
   const [form, setForm] = useState({name: '', email: '', message: ''})
   const [isLoading, setIsLoading] = useState(false)
-  const formRef = useRef(null)
   const [currentAnimation, setCurrentAnimation] = useState('idle')
 
   const { alert, showAlert, hideAlert } = useAlert()
