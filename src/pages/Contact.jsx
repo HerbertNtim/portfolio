@@ -60,7 +60,7 @@ const Contact = () => {
 
         <div className="flex-1 min-w-[50%] flex flex-col">
           <h1 className="head-text">Get In Touch</h1>
-          <p>Let me part of your team or as your freelancer or temporary hiring</p>
+          <p className="pt-2">Let me part of your <strong>Team or as your Freelancer or temporary hiring</strong></p>
 
           <form
             className="w-full flex flex-col gap-7 mt-14"
