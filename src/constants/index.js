@@ -192,13 +192,14 @@ export const projects = [
         link: 'https://github.com/HerbertNtim/evently-app',
         live: 'https://evently-app-ivory.vercel.app'
     },
-    // {
-    //     iconUrl: threads,
-    //     theme: 'btn-back-green',
-    //     name: 'Full Stack Threads Clone',
-    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    //     link: 'https://github.com/adrianhajdin/threads',
-    // },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Infinity Animation Scrolling',
+        description: 'Created a server action to get scrolling on animated movie.',
+        link: 'https://github.com/HerbertNtim/anime-infinity-scroll',
+        live: 'https://anime-infinity-scroll.vercel.app/'
+    },
     // {
     //     iconUrl: car,
     //     theme: 'btn-back-blue',
