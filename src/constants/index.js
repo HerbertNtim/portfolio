@@ -196,24 +196,26 @@ export const projects = [
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Infinity Animation Scrolling',
-        description: 'Created a server action to get scrolling on animated movie.',
+        description: 'Implementing an anime infinity scroll in your project involves seamlessly loading and displaying anime content as users scroll down the page. Leveraging infinite scrolling techniques, this feature ensures a continuous and engaging user experience, automatically fetching and presenting new anime titles without requiring manual navigation. This dynamic approach allows users to explore an extensive collection of anime content effortlessly, providing a fluid and captivating browsing experience on your platform.',
         link: 'https://github.com/HerbertNtim/anime-infinity-scroll',
         live: 'https://anime-infinity-scroll.vercel.app/'
     },
-    // {
-    //     iconUrl: car,
-    //     theme: 'btn-back-blue',
-    //     name: 'Car Finding App',
-    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    // },
-    // {
-    //     iconUrl: snapgram,
-    //     theme: 'btn-back-pink',
-    //     name: 'Full Stack Instagram Clone',
-    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    //     link: 'https://github.com/adrianhajdin/social_media_app',
-    // },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'EVOGYM',
+        description: 'Create a single-page gym app in your project that incorporates a sleek sign-up form. The app should offer users a seamless experience with all gym-related functionalities accessible on a single page. The sign-up form should capture essential details such as user credentials, contact information, and fitness goals. By integrating a user-friendly interface and a streamlined sign-up process, the app encourages individuals to easily register for gym memberships, ensuring a straightforward onboarding process for fitness enthusiasts.',
+        link: 'https://github.com/HerbertNtim/gym-typescript',
+        live: 'https://gym-typescript-2tk.pages.dev/'
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Nike Landing Page',
+        description: 'Develop a single-page Nike landing page app within your project, featuring a visually appealing design that showcases the latest Nike products. Utilize vibrant imagery, concise product descriptions, and seamless navigation to provide an immersive and engaging user experience.',
+        link: 'https://github.com/HerbertNtim/nike_landing_page',
+        live: 'https://nike-landing-page-ewz.pages.dev/'
+    },
     // {
     //     iconUrl: estate,
     //     theme: 'btn-back-black',
