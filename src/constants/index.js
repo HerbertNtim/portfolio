@@ -3,7 +3,6 @@ import {
     car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -19,8 +18,8 @@ import {
     react,
     redux,
     sass,
+    estate,
     snapgram,
-    summiz,
     tailwindcss,
     threads,
     typescript
@@ -185,6 +184,14 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Real-Time Refine Dashboard',
+        description: "The developed dashboard offers a comprehensive overview of key metrics and data points relevant to the user's objectives. Through intuitive visualizations and interactive elements, users can quickly analyze trends, identify patterns, and make data-driven decisions. Customizable features allow users to tailor the dashboard to their specific needs, while real-time updates ensure the information remains current and actionable.",
+        link: 'https://github.com/HerbertNtim/react-admin-dashboard',
+        live: 'https://react-admin-dashboard-rust-delta.vercel.app'
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Evently Booking PlatForm',
@@ -216,13 +223,7 @@ export const projects = [
         link: 'https://github.com/HerbertNtim/nike_landing_page',
         live: 'https://nike-landing-page-ewz.pages.dev/'
     },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
+    
     // {
     //     iconUrl: summiz,
     //     theme: 'btn-back-yellow',
